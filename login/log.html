@@ -1,47 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href=>
+        <link rel="stylesheet" href="log.css">
+
     </head>
     <body>
-        <div id="log" >           
-            <p> Sign-up</p>
-            <form id="sign-up" name="sign-up">
-            <input name="user_name" class="in" type="text" placeholder="Enter user-name">
-            <br/>
-            <input name="email" class="in" type="email" placeholder="Enter Email-id">
-            <br/>
-            <input name="password" class="in" type="password" placeholder="Set your password">
-            <br/>
-            <input name ="re-password" class="in" type="password" placeholder="Re-enter password">
-
-            <br/>
-            <button class="button" onclick="form1()" >
-                Submit                
-            </button>
-            <button id="sign-up" onclick="back_to_sign_In()">
-                login
-            </button>
-        </form>
-            
-        </div>
-        <div id="log2" > 
-            
-            <p> Log-in </p>            
-            <form name="login" id="login">
-            <input name="user-name2" class="in1" type="text" placeholder="Enter your user-name">
-            <input name="password3" class="in1" type="password" placeholder="Enter your password">
-            
-            <button onclick="form2()" class="button1" >
-                Submit                
-            </button>
-            <button id="button" class="button1" onclick="replace()"> sign-up</button>
+        <div id="box1">
+            <p> Sign-up</p><br\>
+            <form name="form1">
+                <input name="username" type="text" placeholder="username">
+                <br/>
+                <input name="email" type="email" placeholder="email-id"><br/>
+                <input name="password" type="password" placeholder="password"><br/>
+                <input name="password2" type="password" placeholder="re enter password"><br/>
+                <button id="submit1">submit</button>
+                <button id="log-in" onclick="replaceit()">log-in</button>
             </form>
-       
-            <script src="log.js">
-             
-            </script>
+            
 
         </div>
+        <div id="box2">
+            <p> Log-in</p><br\>
+
+            <form name="form2">
+                <input name="username2" type="text" placeholder="username"><br/>
+                <input name="password3" type="password" placeholder="password"><br/>
+            </form>
+            <button id="submit2"> submit</button>
+            <button onclick="replaceit()" id="signup">signup</button>
+        </div>
+        <script src="log.js">
+
+        </script>
     </body>
 </html>
