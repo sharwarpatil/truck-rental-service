@@ -21,3 +21,24 @@ let replaceit = () => {
 
 
 }
+let validatelog = ()=>{
+    let username2 = document.getElementById("username2").value
+    let password3 = document.getElementById("password3").value
+
+    if(username2==""|| password3==""){
+        alert("please enter all your details")
+        return false
+    }
+   
+}
+
+let validatesign=()=>{
+    let username =document.getElementById("username").value
+    let email = document.getElementById("email").value
+    let password = document.getElementById("password").value
+    let password2 = document.getElementById("password2").value
+
+    if(username==""|| email=="" || password=="" || password2 ==""){
+        alert("please enter all your details")
+    }
+}

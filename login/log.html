@@ -8,12 +8,12 @@
         <div id="box1">
             <p> Sign-up</p><br\>
             <form name="form1">
-                <input name="username" type="text" placeholder="username">
+                <input id="username" name="username" type="text" placeholder="username">
                 <br/>
-                <input name="email" type="email" placeholder="email-id"><br/>
-                <input name="password" type="password" placeholder="password"><br/>
-                <input name="password2" type="password" placeholder="re enter password"><br/>
-                <button id="submit1">submit</button>
+                <input id="email" name="email" type="email" placeholder="email-id"><br/>
+                <input id="password" name="password" type="password" placeholder="password"><br/>
+                <input id="password2" name="password2" type="password" placeholder="re enter password"><br/>
+                <button id="submit1" onclick="validatesign()">submit</button>
                 <button id="log-in" onclick="replaceit()">log-in</button>
             </form>
             
@@ -23,10 +23,10 @@
             <p> Log-in</p><br\>
 
             <form name="form2">
-                <input name="username2" type="text" placeholder="username"><br/>
-                <input name="password3" type="password" placeholder="password"><br/>
+                <input id="username2" name="username2" type="text" placeholder="username"><br/>
+                <input id="password3" name="password3" type="password" placeholder="password"><br/>
             </form>
-            <button id="submit2"> submit</button>
+            <button onclick="validatelog()" id="submit2"> submit</button>
             <button onclick="replaceit()" id="signup">signup</button>
         </div>
         <script src="log.js">
