@@ -33,16 +33,16 @@ input{
 body{
     
     width: 100wh;
-    background-image: url(https://cdn.mos.cms.futurecdn.net/qn4ZFbAyQFgJMgNir8X8Ym-1200-80.jpg);
+    background-image: url(https://cdn.mos.cms.futurecdn.net/qn4ZFbAyQFgJMgNir8X8Ym-1200-80.jpg)
     background-size: cover;
  
 }
  
 button{
   background-color: #ff9100;
-  height: 4dvh;
-  width: 8dvh;
-  margin-top: 5dvh;
+  height: 4vh;
+  width: 8vh;
+  margin-top: 5vh;
 }
 
 
