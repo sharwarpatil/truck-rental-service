@@ -12,6 +12,7 @@
 
   height:60vh;
   width:40vh;
+  display: none;
  
 
 }
@@ -28,13 +29,14 @@ input{
   margin-top:4vh;
   width: 80%;
   height:3vh;
+  font-size: 1.5vh;
 }
 
 body{
     
     width: 100wh;
-    background-image: url(https://cdn.mos.cms.futurecdn.net/qn4ZFbAyQFgJMgNir8X8Ym-1200-80.jpg)
-    background-size: cover;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/qn4ZFbAyQFgJMgNir8X8Ym-1200-80.jpg);
+    background-size:cover;
  
 }
  
@@ -43,24 +45,18 @@ button{
   height: 4vh;
   width: 8vh;
   margin-top: 5vh;
+  font-size: 1.5vh;
 }
 
 
 p{
   color: white;
-  font-size: larger;
+  font-size: 2.5vh
 }
 form{
   background-color: rgb(8, 12, 56);
 }
-@keyframes neonLightAnimation {
-  0%, 100% {
-      background-position: 0 0;
-  }
-  100% {
-      background-position: 400% 0;
-  }
-}
+
 
 #box1::before, #box2::before {
   content: "";
@@ -69,7 +65,7 @@ form{
   left: -2%;
   right: -2%;
   bottom: -2%;
-  border-radius: 2%;
+ 
   animation: neonLightAnimation 5s linear infinite;
   background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff, #00ffff);
   background-size: 400% 100%;
