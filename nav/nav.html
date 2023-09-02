@@ -1,35 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="nav.css">
 </head>
 <body>
     <div id="nav">
-        <a class ="nav" href="https://www.google.co.in/">Your account</a>
-        <a class ="nav" href="https://www.google.co.in/">Live tracking</a>
-        <a class ="nav" href="https://www.google.co.in/">Dealer</a>
-        <a class ="nav" href="https://www.google.co.in/">Your bookings</a>
-        
-        
-        
+        <a class ="nav" href="https://www.google.co.in/">        Home </a>
+        <a class ="nav" href="https://www.google.co.in/"> Live tracking </a>
+        <a class ="nav" href="https://www.google.co.in/"> Your account</a>
+        <a class ="nav" href="https://www.google.co.in/"> Your bookings </a>
+     
+        <div id="menu" class="menu-button">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
 
-        
-
-        
+        </div>
 
     </div>
 
-    <div id="capacity">
-        <button class="weight">
-            Light (below 750kg)
-        </button>
-        <button class="weight">
-            Heavy (above 750kg)
-        </button>
-    </div>
     
-</body>
+    <main>
+        <!-- image-->
+       <div class="img" id="container_img">
+
+        <div class="img" id="img1">
+
+
+       </div>
+       <div class="img" id="img2">
+
+       </div>
+
+       <div class="img" id="img3">
+
+       </div>
+
+
+       
+        
+    </main>  
+    <script> 
+    // creating a auto slide for images
+        let img1 =()=>{
+            document.getElementById("img1").style.display="block"
+            document.getElementById("img2").style.display="none"
+            document.getElementById("img3").style.display="none"
+
+        }
+
+
+        let img2 =()=>{
+            document.getElementById("img1").style.display="none"
+            document.getElementById("img2").style.display="block"
+            document.getElementById("img3").style.display="none"
+
+        }
+
+
+        let img3 =()=>{
+            document.getElementById("img1").style.display="none"
+            document.getElementById("img2").style.display="none"
+            document.getElementById("img3").style.display="block"
+
+        }
+        setTimeout(() => {
+             setInterval(img1, 2000); // 2 seconds
+             setInterval(img2, 4000); // 4 seconds
+             setInterval(img3, 8000); // 8 seconds
+         }, 8000); 
+
+
+
+
+    </script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>   
+
 </html>

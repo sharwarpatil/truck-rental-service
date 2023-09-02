@@ -1,46 +1,78 @@
 
 .nav:hover{
-    border-color: white;
-    border-style: solid;
-    border-width: 0.1vh;
+    
+    color: white;
+   
 }
 
 .nav{
     
-    font-size: larger;
+    font-size: 2vh;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 145, 0) ;
     background-color: rgb(0, 8, 51); 
+    text-decoration: none;
     display: inline-block;
-    padding: 2vh;
-    margin-left:5vw;
-    margin-right: 5vw;
-    margin-top: 2vh;
+    margin-top: 3vh;
+
     
 }
 #nav{
     background-color: rgb(0, 8, 51);
     height: 10vh;
+    display:flex;
+    justify-content: space-around;
+    
 }
 body{
     text-align: center;
     text-decoration-line: none;
+    background-color: aliceblue;
     
 }
 
-#capacity{
-    display: inline-block;
+
+.menu-button {
+    margin-top: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 4vh;
+    height: 0.5vh;
+    background-color: rgb(255, 145, 0);
+    margin: 12%;
+    
+}
+
+#container_img{
     position: relative;
-    top: 15vh;
-    text-align: center;
   
-    
-
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    top: 2vh;
+   
 }
-.weight{
-  
-    height: 5vh;
-    width: 10vw;
-    font-size: large;
 
+#img1{
+    background-image: url(img/seb-creativo-3jG-UM8IZ40-unsplash\ \(1\).jpg);
+       display: block;
+}
+#img2{
+    background-image: url(img/ale-sat-UlmLMQC8pJ4-unsplash\ \(1\).jpg);
+    display: none;
+}
+#img3{
+    background-image: url(img/seb-creativo-3jG-UM8IZ40-unsplash\ \(1\).jpg);
+    display: none;
+}
+.img{
+    background-size: cover;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
 }
