@@ -57,10 +57,13 @@ body{
     top: 2vh;
    
 }
-
+#img{
+    background-image: url(img/ai-generated-8200835_1280.png);
+    display: block;
+}
 #img1{
     background-image: url(img/seb-creativo-3jG-UM8IZ40-unsplash\ \(1\).jpg);
-       display: block;
+       display: none;
 }
 #img2{
     background-image: url(img/ale-sat-UlmLMQC8pJ4-unsplash\ \(1\).jpg);
