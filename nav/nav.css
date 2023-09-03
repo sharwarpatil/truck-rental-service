@@ -141,3 +141,14 @@ for sliding images
     margin-top: 5vh;
 }
 
+
+/* for card*/
+.card{
+    height: 30vh;
+    width: 30vh;
+}
+.card-text{
+  margin: 0;
+  font-size: 1.5vh;
+  font-weight: bold;
+}
