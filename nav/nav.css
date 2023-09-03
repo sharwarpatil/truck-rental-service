@@ -10,7 +10,7 @@
     font-size: 2vh;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 145, 0) ;
-    background-color: rgb(0, 8, 51); 
+    background-color: rgb(44, 47, 62); 
     text-decoration: none;
     display: inline-block;
     margin-top: 3vh;
@@ -18,7 +18,7 @@
     
 }
 #nav{
-    background-color: rgb(0, 8, 51);
+    background-color: rgb(44, 47, 62);
     height: 10vh;
     display:flex;
     justify-content: space-around;
@@ -27,7 +27,7 @@
 body{
     text-align: center;
     text-decoration-line: none;
-    background-color: aliceblue;
+    background-color: rgb(135, 199, 255);
     
 }
 
@@ -41,7 +41,7 @@ body{
 
 .bar {
     width: 4vh;
-    height: 0.5vh;
+    height: 0.4vh;
     background-color: rgb(255, 145, 0);
     margin: 12%;
     
@@ -54,7 +54,12 @@ body{
     width: 50vw;
     position: relative;
     left: 25vw;
-    top: 2vh;
+    
+    
+    display:flex;
+    justify-content: center;
+ 
+    
    
 }
 #img{
@@ -70,7 +75,7 @@ body{
     display: none;
 }
 #img3{
-    background-image: url(img/seb-creativo-3jG-UM8IZ40-unsplash\ \(1\).jpg);
+    background-image:url(img/sander-yigin-ki19VJAGh6w-unsplash.jpg);
     display: none;
 }
 .img{
@@ -78,4 +83,17 @@ body{
     height: 50vh;
     width: 50vw;
     position: absolute;
+  
+   
+}
+
+
+#content{
+    height: 500vh;
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    top: 1vh;
+   
+    background-color: rgb(255, 255, 255);
 }
