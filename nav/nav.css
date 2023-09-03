@@ -15,15 +15,18 @@
     text-decoration: none;
     display: inline-block;
     margin-top: 3vh;
+    
 
     
 }
 #nav{
     background-color: rgb(44, 47, 62);
     height: 10vh;
+    width: 100vw;
     display:flex;
     justify-content: space-around;
-    
+    position: fixed;
+    z-index: 1;
 }
 body{
     text-align: center;
@@ -48,6 +51,11 @@ body{
     
 }
 
+
+/*
+for sliding images
+ */
+
 #container_img{
     position: relative;
   
@@ -55,7 +63,7 @@ body{
     width: 70vw;
     position: relative;
     left: 15vw;
-    
+     top: 11vh;
     
     display:flex;
     justify-content: center;
@@ -64,9 +72,7 @@ body{
    
 }
 
-/*
-for sliding images
- */
+
   
 #img{
     background-image: url(img/IMG_20230903_165925.jpg);
@@ -89,6 +95,7 @@ for sliding images
     height: 40vh;
     width: 70vw;
     position: absolute;
+    
   
    
 }
@@ -98,7 +105,7 @@ for sliding images
 
 #under_image_text{
     position: relative;
-    top: 1vh;
+    top: 12vh;
     
     background-color: rgb(44, 47, 62);
     text-align: center;
@@ -114,10 +121,8 @@ for sliding images
     position: relative;
     left: 10vw;
     bottom: 3vh;
-   
-
-   
     background-color: rgb(255, 255, 255);
+    top:8vh;
     
 }
 
