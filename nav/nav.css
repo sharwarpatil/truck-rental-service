@@ -119,36 +119,48 @@ for sliding images
     height: 500vh;
     width: 80vw;
     position: relative;
-    left: 10vw;
+    left: 20vw;
     bottom: 3vh;
     background-color: rgb(255, 255, 255);
-    top:8vh;
+    top:11vh;
     
 }
 
-.content_card{
-    display: inline-block;
-    height:20vh;
-    width: 20vh;
-    
-}
-.block{
-    display: flex;
-    height: 30vh;
-    justify-content: space-around;
-    position: relative;
-    top:1vh;
-    margin-top: 5vh;
-}
 
 
 /* for card*/
-.card{
-    height: 30vh;
-    width: 30vh;
+.block1{
+    height: 35vh;
+    width:30vh;
+    background-color: orange;
+    display: inline-block;
+    margin-top: 2vh;
+    text-align: center;
+    display: flex;
 }
-.card-text{
-  margin: 0;
-  font-size: 1.5vh;
-  font-weight: bold;
+
+.block{
+        
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+.blockimage{
+    background-color: rgb(77, 11, 11);
+    height: 28vh;
+    width: 28vh;
+    position: relative;
+    left: 1vh;
+    top:1vh;
+    background-size: cover;
+}
+/* for inserting images in the card*/
+#block_image1{
+    background-image: url(img/for_card/c1.jpeg);
+}
+#block_image2{
+    background-image: url(img/for_card/c2.jpeg);
+}
+#block_image3{
+    background-image: url(img/for_card/c3.2.jpeg);
 }
