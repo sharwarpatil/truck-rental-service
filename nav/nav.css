@@ -8,20 +8,19 @@
 
 .nav{
     
-    font-size: 2vh;
+    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 145, 0) ;
-    background-color: rgb(44, 47, 62); 
+    background-color: rgb(36, 38, 52); 
     text-decoration: none;
     display: inline-block;
-    margin-top: 3vh;
+    margin-top: 1.5rem;
     
 
-    
 }
 #nav{
-    background-color: rgb(44, 47, 62);
-    height: 10vh;
+    background-color: rgb(36, 38, 52);
+    height: 5rem;
     width: 100vw;
     display:flex;
     justify-content: space-around;
@@ -31,7 +30,7 @@
 body{
     text-align: center;
     text-decoration-line: none;
-    background-color: rgb(29, 168, 255);
+    background-color: rgb(175, 205, 255);
     
 }
 
@@ -59,11 +58,11 @@ for sliding images
 #container_img{
     position: relative;
   
-    height: 40vh;
+    height: 45vh;
     width: 70vw;
     position: relative;
     left: 15vw;
-     top: 11vh;
+     top: 8.5vh;
     
     display:flex;
     justify-content: center;
@@ -75,26 +74,29 @@ for sliding images
 
   
 #img{
-    background-image: url(img/IMG_20230903_165925.jpg);
+    background-image: url(img/t3.jpeg);
     display: block;
 }
 #img1{
-    background-image: url(img/IMG_20230903_170052.jpg);
+    background-image: url(img/t2.jpeg);
        display: none;
 }
 #img2{
-    background-image: url(img/IMG_20230903_170008.jpg);
+    background-image: url(img/t1.jpeg);
     display: none;
 }
 #img3{
-    background-image:url(img/IMG_20230903_170023.jpg);
+    background-image:url(img/t4.jpeg);
     display: none;
 }
 .img{
     background-size: cover;
-    height: 40vh;
+    height: 45vh;
     width: 70vw;
     position: absolute;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.2rem;
     
   
    
@@ -105,7 +107,7 @@ for sliding images
 
 #under_image_text{
     position: relative;
-    top: 12vh;
+    top: 9vh;
     
     background-color: rgb(44, 47, 62);
     text-align: center;
@@ -116,51 +118,59 @@ for sliding images
 
 
 #content{
-    height: 500vh;
-    width: 80vw;
-    position: relative;
-    left: 20vw;
-    bottom: 3vh;
-    background-color: rgb(255, 255, 255);
-    top:11vh;
+    width:70vw;
     
+    left: 26vw;
+  
+    position: relative;
+    
+   
+    
+    background-color: rgb(214, 252, 253);
+    top:8.5vh;
+  
+    border-collapse: collapse;
 }
 
 
+.card {
+   
+  
+    
+    cursor: pointer;
+    font-size: 1.5rem;
+    
+    border-width: 0.1rem;
+    border-color: #000000;
+    border-collapse: collapses;
+    position: relative;
+    
+    
+   overflow: hidden;
+   color: rgb(0, 0, 0);
+    border-radius: 0px;
+}
 
-/* for card*/
-.block1{
-    height: 35vh;
-    width:30vh;
-    background-color: orange;
+.col-md-4{
+    height:22rem;
+    width: 30rem;
     display: inline-block;
-    margin-top: 2vh;
-    text-align: center;
-    display: flex;
+   
 }
-
-.block{
-        
-    display: flex;
-    justify-content:space-evenly;
+#content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
     
 }
-.blockimage{
-    background-color: rgb(77, 11, 11);
-    height: 28vh;
-    width: 28vh;
-    position: relative;
-    left: 1vh;
-    top:1vh;
-    background-size: cover;
+.card-text{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
-/* for inserting images in the card*/
-#block_image1{
+#cardimage1{
     background-image: url(img/for_card/c1.jpeg);
-}
-#block_image2{
-    background-image: url(img/for_card/c2.jpeg);
-}
-#block_image3{
-    background-image: url(img/for_card/c3.2.jpeg);
+    background-size:cover ;
 }

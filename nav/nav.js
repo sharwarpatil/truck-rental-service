@@ -30,6 +30,11 @@ let img3 =()=>{
 }
 
 //set timeout for images
+setTimeout(img, 3000); // 3 seconds
+setTimeout(img1, 6000); // 6 seconds
+setTimeout(img2, 9000); // 9 seconds
+setTimeout(img3, 12000); // 12 seconds
+
 setInterval(() => {
      setTimeout(img, 3000); // 3 seconds
      setTimeout(img1, 6000); // 6 seconds
