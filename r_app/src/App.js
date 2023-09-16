@@ -1,6 +1,14 @@
 import './App.css';
 import Navbar from './component/navbar.js'
 import Card from "./component/card.js"
+import Btn from './component/button';
+
+
+// for button
+
+
+
+
  // creating a auto slide for images
  let img =()=>{
   document.getElementById("img1").style.display="none"
@@ -48,25 +56,7 @@ setInterval(() => {
 
 
 
-// for button
 
-
-let btn_on= () => {
-  let box1= document.getElementById("btn_radio")
- let box2 = document.getElementById("btn_radio2")
- box1.style.display ="none"
- box2.style.display="block"
- 
-
-}
-let btn_of= () => {
-  let box1= document.getElementById("btn_radio")
- let box2 = document.getElementById("btn_radio2")
- box2.style.display ="none"
- box1.style.display="block"
- 
-
-}
 
 
 
@@ -128,23 +118,21 @@ function App() {
 
 
         <div id="beside_card">
-
-          <div onclick="btn_on()" id="btn_radio">
-          <div id="circle_btn1"></div>
-
-      
-
-          </div>
-
-          <div onclick="btn_of()" id="btn_radio2">
+          <p id="filler"> Fillers</p>
+          <p className='ft'>    Dark mode<br/><Btn id="dark" /> </p>
           
-      
-          <div id="circle_btn2"></div>
           
+          <p className='ft'>    Cheapest<br/><Btn id="cheap" /> </p>
+         
+          <p className='ft'>    Expensive<br/><Btn id="expensive"/></p>
+          
+          <p className='ft'>    Smallest<br/><Btn id="small" /></p>
       
-          </div>
-    
-    
+          <p className='ft'>    Largest<br/><Btn id="large"/></p> 
+      
+          <p className='ft'>    Mostly<br/>     Brought<br/><Btn id="most" /></p>
+   
+          
           
         </div>
 
