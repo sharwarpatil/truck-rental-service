@@ -98,7 +98,7 @@ for sliding images
   height: 45vh;
   width: 70vw;
   position: absolute;
-  border-color: rgb(3, 3, 254);
+  border-color: rgb(0, 0, 0);
   border-style: solid;
   border-width: 0.2rem;
   
@@ -154,7 +154,7 @@ for sliding images
   font-size: 1.5rem;
   
   border-width: 0.3vh;
-  border-color: rgb(3, 3, 254);
+  border-color: rgb(0, 0, 0);
   border-collapse: collapses;
   position: relative;
   
@@ -190,7 +190,7 @@ for sliding images
  
   border-style: solid;
   border-width: 0.3vh;
-  border-color: rgb(3, 3, 254);
+  border-color: rgb(0, 0, 0);
   border-collapse: collapse;
 }
 
@@ -204,7 +204,7 @@ for sliding images
  
   border-width: 0.3vh;
   border-style: solid;
-  border-color: rgb(3, 3, 254);
+  border-color: rgb(0, 0, 0);
   
   margin-right: 80vw;
   margin-top: 6vh;
