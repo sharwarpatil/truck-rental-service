@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<link rel="stylesheet " href="test.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <DIV onclick="btn_on()" id="btn_radio">
+    <div id="circle_btn1"></div>
+
+    
+
+    </DIV>
+
+    <DIV onclick="btn_of()" id="btn_radio2">
+        
+    
+        <div id="circle_btn2"></div>
+        
+    
+        </DIV>
+    <script>
+        btn_on= () => {
+            let box1= document.getElementById("btn_radio")
+           let box2 = document.getElementById("btn_radio2")
+           box1.style.display ="none"
+           box2.style.display="block"
+           
+        
+        }
+        btn_of= () => {
+            let box1= document.getElementById("btn_radio")
+           let box2 = document.getElementById("btn_radio2")
+           box2.style.display ="none"
+           box1.style.display="block"
+           
+        
+        }
+        
+    </script>
+    
+</body>
+</html>

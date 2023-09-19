@@ -1,0 +1,53 @@
+#btn_radio2{
+    height: 2vh;
+    width: 5vh;
+    background-color:rgb(26, 217, 242);
+    border-width: 0.1vh;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    position:absolute;
+    display: none;
+
+}
+#btn_radio{
+    height: 2vh;
+    width: 5vh;
+    background-color:rgb(255, 255, 255);
+    border-width: 0.1vh;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50px;
+    cursor: pointer;
+    position:absolute;
+
+}
+
+
+
+#circle_btn1{
+    height:1.4vh;
+    width: 1.4vh;
+    background-color: rgb(180, 180, 180);
+    margin-top: 0.2vh;
+    margin-left: 0.2vh;
+    border-radius: 50px;
+    border-width: 0.1vh;
+    border-color: black;
+    border-style: solid;
+    position:absolute;
+}
+#circle_btn2{
+    height:1.4vh;
+    width: 1.4vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0.2vh;
+    margin-left: 3.2vh;
+
+    border-radius: 50px;
+    border-width: 0.1vh;
+    border-color: black;
+    border-style: solid;
+    position:absolute;
+}

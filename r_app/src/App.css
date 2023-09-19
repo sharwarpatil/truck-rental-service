@@ -195,7 +195,7 @@ for sliding images
 }
 
 #beside_card{
-  background-color: rgb(177, 231, 246);
+  background-color: rgb(206, 244, 255);
   height: 80vh;
   width :15.5vw;
   color: rgb(9, 48, 109);
@@ -212,8 +212,9 @@ for sliding images
  
   display: flex;
   padding-top: 2vh;
+  text-align: center;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around
  
 
   
@@ -237,13 +238,15 @@ for sliding images
 /*
 for toggle bar switch
 */
-.form-switch{
-  margin-left: 3rem;
+.btn{
+  width:12vw;
+  position: relative;
+  left: 0.5vw
   
-  font-size: 1.3rem;
-  
-
 }
-.form-check-label{
-  margin-right: rem;
+#fil{
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: royalblue;
+
 }
