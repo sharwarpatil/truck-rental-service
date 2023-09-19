@@ -1,10 +1,7 @@
 import './App.css';
 import Navbar from './component/navbar.js'
 import Card from "./component/card.js"
-import Btn from './component/button';
 
-
-// for button
 
 
 
@@ -96,7 +93,7 @@ function App() {
      
          <p id="text">
           
-             Rent your truck Now
+             Rent a truck Now
 
           <i class="bi bi-truck"></i>
           <svg xmlns="http://www.w3.org/2000/svg" id="icon" fill="currentColor" className="bi bi-truck" viewBox="0 0 16 16">
@@ -118,23 +115,15 @@ function App() {
 
 
         <div id="beside_card">
-          <p id="filler"> Fillers</p>
-          <p className='ft'>    Dark mode<br/><Btn id="dark" /> </p>
-          
-          
-          <p className='ft'>    Cheapest<br/><Btn id="cheap" /> </p>
-         
-          <p className='ft'>    Expensive<br/><Btn id="expensive"/></p>
-          
-          <p className='ft'>    Smallest<br/><Btn id="small" /></p>
-      
-          <p className='ft'>    Largest<br/><Btn id="large"/></p> 
-      
-          <p className='ft'>    Mostly<br/>     Brought<br/><Btn id="most" /></p>
-   
-          
-          
+          <div className="form-check form-switch">
+          <label className="form-check-label" for="flexSwitchCheckDefault">Dark mode</label>
+          <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+        
+          </div>
+
+       
         </div>
+       
 
         <div id="content"   >
 
@@ -151,6 +140,7 @@ function App() {
         <Card/>
         <Card/>
         </div>
+ 
     </>
   );
 }
