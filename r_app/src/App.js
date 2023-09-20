@@ -127,19 +127,19 @@ setInterval(() => {
 
           <div id="beside_card">
             <p id="fil"> Fillers</p>
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-dark">
             Cheapest
           </button>
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-dark">
             Expensive
           </button>
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-dark">
             Smallest
           </button>
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-dark">
             Largest
           </button>
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-dark">
             most brought
           </button>
           </div>

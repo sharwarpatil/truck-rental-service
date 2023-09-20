@@ -195,7 +195,7 @@ for sliding images
 }
 
 #beside_card{
-  background-color: rgb(206, 244, 255);
+  background-color: rgb(255, 255, 255);
   height: 80vh;
   width :15.5vw;
   color: rgb(9, 48, 109);
@@ -247,6 +247,6 @@ for toggle bar switch
 #fil{
   font-size: 1.6rem;
   font-weight: 700;
-  color: royalblue;
+  color:black;
 
 }

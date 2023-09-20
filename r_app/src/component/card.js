@@ -23,6 +23,8 @@ export default function Card() {
                     Saepe, voluptates minima. Assumenda quam illo ipsam iusto minima
                      labore repellendus exercitationem tempore.
 
+              
+
                   </p>
                   </div>
                 </div>
