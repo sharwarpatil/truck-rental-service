@@ -78,19 +78,19 @@ for sliding images
 
 
 #img{
-  background-image: url(./images/t3.jpeg);
+  background-image: url(component/images/t2.jpeg);
   display: block;
 }
 #img1{
-  background-image: url(./images/t4.jpeg);
+  background-image: url(component/images/t1.jpeg);
      display: none;
 }
 #img2{
-  background-image: url(./images/t2.jpeg);
+  background-image: url(component/images/t3.jpeg);
   display: none;
 }
 #img3{
-  background-image:url(./images/t1.jpeg);
+  background-image:url(component/images/t4.jpeg);
   display: none;
 }
 .img{
@@ -185,7 +185,7 @@ for sliding images
  
 }
 #cardimage1{
-  background-image: url(./images/for_card/c1.jpeg);
+
   background-size:cover ;
  
   border-style: solid;
@@ -241,12 +241,18 @@ for toggle bar switch
 .btn{
   width:12vw;
   position: relative;
-  left: 0.5vw
+  left: 0.5vw;
+  
+  margin-top: 1.5vh;
   
 }
 #fil{
   font-size: 1.6rem;
   font-weight: 700;
-  color:black;
+
+
+}
+#btnn{
+  margin-bottom: 50vh;
 
 }

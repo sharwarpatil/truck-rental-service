@@ -1,13 +1,15 @@
 import React from 'react'
 
 
-export default function Card() {
+export default function Card(props) {
+  
   return (
     <>
-    <div class="card mb-3 "  >
+    <div className="card mb-3 "  >
+
             
-            <div class="row g-0 ">
-              <div class="col-md-4" id="cardimage1">
+            <div className="row g-0 ">
+              <div className="col-md-4" id="cardimage1" style={{ backgroundImage: `url(${props.url})` }}>
               
               </div><br/>
               <div className="col-md-8">
