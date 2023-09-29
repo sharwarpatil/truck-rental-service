@@ -197,7 +197,7 @@ for sliding images
 #beside_card{
   background-color: rgb(255, 255, 255);
   height: 80vh;
-  width :15.5vw;
+  width :16vw;
   color: rgb(9, 48, 109);
  
   display:inline-block;
@@ -239,24 +239,22 @@ for sliding images
 for toggle bar switch
 */
 .btn{
-  width:12vw;
+ width:14.8vw;
   position: relative;
-  left: 0.1vw;
+  left: 0.05vw;
   margin-top: 4vh;
   bottom: 3vh;
+  font-size: 0.82rem;
   
 }
 
 
-#btnn{
-  margin-bottom: 50vh;
-  padding-top: 20vh;
-}
+
 
 #fortext{
   margin-top: 4vh;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500;
-  color: blue;
+  
 
 }
