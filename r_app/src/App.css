@@ -100,7 +100,7 @@ for sliding images
   position: absolute;
   border-color: rgb(0, 0, 0);
   border-style: solid;
-  border-width: 0.2rem;
+  border-width: 0.1vh;
   
 
  
@@ -131,17 +131,17 @@ for sliding images
 #content{
   width:82vw;
   
-  left: 16vw;
+  
+  left: 15.9vw;
 
   position: relative;
-  bottom:80vh;
+  bottom:79.9vh;
   
  
   
   background-color: rgb(255, 255, 255);
   
 
-  border-collapse: collapse;
   display: inline-block;
 }
 
@@ -174,7 +174,7 @@ for sliding images
   display:flex;
   flex-direction: column;
   justify-content: center;
-  
+  margin-right: 0.5vw;
   
   
 }
@@ -192,12 +192,14 @@ for sliding images
   border-width: 0.1vh;
   border-color: rgb(0, 0, 0);
   border-collapse: collapse;
+  margin: -0.1vh; 
 }
 
 #beside_card{
+  margin: -0.1vh; 
   background-color: rgb(255, 255, 255);
   height: 80vh;
-  width :16vw;
+  width :15.95vw;
   color: rgb(9, 48, 109);
  
   display:inline-block;
@@ -214,7 +216,7 @@ for sliding images
   padding-top: 2vh;
   text-align: center;
   flex-direction: column;
-  justify-content: space-around
+  justify-content: space-around;
  
 
   
@@ -244,7 +246,7 @@ for toggle bar switch
   left: 0.05vw;
   margin-top: 4vh;
   bottom: 3vh;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   
 }
 
@@ -258,3 +260,5 @@ for toggle bar switch
   
 
 }
+
+
