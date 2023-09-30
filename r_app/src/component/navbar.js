@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import Bookings from './Bookings';
+
 
 export default function Navbar() { // Changed "navbar" to "Navbar"
   const location = useLocation();
@@ -13,8 +13,8 @@ export default function Navbar() { // Changed "navbar" to "Navbar"
         </svg>
 
         <NavLink className="nav" to="/">Home</NavLink>
-        <NavLink className="nav" to="">Live tracking</NavLink>
-        <NavLink className="nav" to="">Your account</NavLink>
+        <NavLink className="nav" to="/Bookings">Live tracking</NavLink>
+        <NavLink className="nav" to="/Bookings">Your account</NavLink>
         <NavLink className="nav" to="/Bookings">Your bookings</NavLink>
       </div>
     </>

@@ -4,9 +4,8 @@ import {
   BrowserRouter as Router, 
   Route, 
   Routes,
-  Link
  } from 'react-router-dom';
-import Index from './component';
+import Index from './component/index';
 import Bookings from './component/Bookings';
 
 
