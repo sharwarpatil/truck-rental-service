@@ -5,11 +5,8 @@ export default function Bookings() {
   
   
        <>
-       
-       <div>
-         
-          
-       </div>
+           <br/> <br/> <br/> <br/> <br/> <br/>      
+          <h1> bookings</h1>
         
        </>
   )}

@@ -34,7 +34,7 @@
 body{
   text-align: center;
   text-decoration-line: none;
-  background-color: rgb(232, 241, 255);
+  
   
 }
 
@@ -59,55 +59,13 @@ body{
 for sliding images
 */
 
-#container_img{
-  position: relative;
 
-  height: 45vh;
-  width: 70vw;
-  position: relative;
-  left: 15vw;
-   top: 5vh;
-  
-  display:flex;
-  justify-content: center;
-
-  
- 
-}
-
-
-
-#img{
-  background-image: url(component/images/t2.jpeg);
-  display: block;
-}
-#img1{
-  background-image: url(component/images/t1.jpeg);
-     display: none;
-}
-#img2{
-  background-image: url(component/images/t3.jpeg);
-  display: none;
-}
-#img3{
-  background-image:url(component/images/t4.jpeg);
-  display: none;
-}
-.img{
-  background-size: cover;
-  height: 45vh;
-  width: 70vw;
-  position: absolute;
-  border-color: rgb(0, 0, 0);
-  border-style: solid;
-  border-width: 0.1vh;
-  
 
  
-}
+
 #under_image_text{
   position: relative;
-  top: 5vh;
+  
   
   background-color: rgb(0, 0, 0);
   text-align: center;
@@ -129,16 +87,14 @@ for sliding images
 }
 
 #content{
-  width:82vw;
+  width:81vw;
   
   
-  left: 15.9vw;
+  left: 16.5vw;
 
   position: relative;
-  bottom:79.9vh;
-  
- 
-  
+   
+  bottom: 80vh; 
   background-color: rgb(255, 255, 255);
   
 
@@ -158,7 +114,6 @@ for sliding images
   border-collapse: collapses;
   position: relative;
   
-  background-color: rgb(255, 255, 255);
  overflow: hidden;
  color: rgb(0, 0, 0);
   border-radius: 0px;
@@ -175,8 +130,7 @@ for sliding images
   flex-direction: column;
   justify-content: center;
   margin-right: 0.5vw;
-  
-  
+
 }
 .card-text{
   margin-top: 2rem;
@@ -197,28 +151,32 @@ for sliding images
 
 #beside_card{
   margin: -0.1vh; 
-  background-color: rgb(255, 255, 255);
+  position: relative;
+  right:2vw;
+  
   height: 80vh;
   width :15.95vw;
-  color: rgb(9, 48, 109);
+  color: rgb(0, 0, 0);
  
   display:inline-block;
- 
-  border-width: 0.1vh;
   border-style: solid;
-  border-color: rgb(0, 0, 0);
+  border-width: 0.1vh;
+  border-color: blue;
+
   
   margin-right: 80vw;
-  margin-top: 6vh;
-  position:sticky;
+  
+  
  
   display: flex;
   padding-top: 2vh;
   text-align: center;
   flex-direction: column;
   justify-content: space-around;
- 
+  
+  display: inline-block;
 
+  
   
   
   
@@ -260,5 +218,21 @@ for toggle bar switch
   
 
 }
+.carousel{
+  position: relative;
+  width: 75vw;
+  left: 12.5vw;
+  height: 49vh;
+}
+.d-block{
+  height: 54vh;
+  
+}
+img{
+  background-size: cover;
+}
 
-
+#c_block{
+  background-color:rgba(2, 168, 239, 0.433);
+  height: 54vh;
+}

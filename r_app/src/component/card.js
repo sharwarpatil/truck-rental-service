@@ -5,7 +5,7 @@ export default function Card(props) {
   
   return (
     <>
-    <div className="card mb-3 "  >
+    <div className="card mb-3  "  >
 
             
             <div className="row g-0 ">

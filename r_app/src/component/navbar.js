@@ -13,8 +13,8 @@ export default function Navbar() { // Changed "navbar" to "Navbar"
         </svg>
 
         <NavLink className="nav" to="/">Home</NavLink>
-        <NavLink className="nav" to="/Bookings">Live tracking</NavLink>
-        <NavLink className="nav" to="/Bookings">Your account</NavLink>
+        <NavLink className="nav" to="/Tracking">Live tracking</NavLink>
+        <NavLink className="nav" to="/Account">Your account</NavLink>
         <NavLink className="nav" to="/Bookings">Your bookings</NavLink>
       </div>
     </>
