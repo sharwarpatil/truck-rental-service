@@ -53,8 +53,8 @@ import image4 from "./images/t4.jpeg"
       <div id="under_image_text">
 
       <p id="text">
-        
-          Rent a truck Now
+      
+        Rent a truck Now  
 
         <i className="bi bi-truck" ></i>
         <svg xmlns="http://www.w3.org/2000/svg" id="icon" fill="currentColor" className="bi bi-truck" viewBox="0 0 16 16">
