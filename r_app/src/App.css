@@ -141,8 +141,9 @@ body{
   display:inline-block;
   border-style: solid;
   border-width: 0.1vh;
-  border-color: blue;
+  border-color: black;
   background-image: url(component/images/background.jpeg);
+  background-size: cover;
   margin-right: 80vw; 
   display: flex;
   padding-top: 2vh;
@@ -194,7 +195,8 @@ img{
 }
 
 #c_block{
-  background-color:rgba(32, 94, 240, 0.66);
+  background-image: url(component/images/background2.jpeg);
+  background-size: contain;
   height: 54vh;
 }
 .active{
@@ -215,8 +217,7 @@ img{
   background-color: aquamarine;
   height: 5vh;
   width: 5vw;
-  border-radius: 50px;
-  
+  border-radius: 50px;  
   position: relative;
   left: 47vw;
   bottom:55vh ;
