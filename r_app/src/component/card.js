@@ -1,10 +1,12 @@
 import React from 'react'
+import { Link, NavLink, useLocation } from 'react-router-dom';
 
 
 export default function Card(props) {
   
   return (
     <>
+    <Link to="/Details">
     <div className="card mb-3  "  >
 
             
@@ -24,7 +26,8 @@ export default function Card(props) {
                 </div>
               </div>
             </div>
-    <div/>        
+    <div/> 
+    </Link>       
     </>
   )
 }
