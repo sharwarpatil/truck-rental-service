@@ -1,5 +1,7 @@
 
 import Card from './card';
+import { Link } from 'react-router-dom';
+
 import React, { useState, useEffect } from 'react';
 import image1 from "./images/t1.jpeg"
 import image2 from "./images/t2.jpeg"
@@ -116,14 +118,28 @@ import c7 from "./images/for_card/c6.jpeg"
       </div>
                       
       <div id="content"   >
-
-        <Card url={c1}/>
-        <Card url={c2}/>
-        <Card url={c3}/>
-        <Card url={c4}/>
-        <Card url={c5}/>
-        <Card url={c6}/>
-        <Card url={c7}/>
+        <Link to="/Details/truck1">  
+          <Card url={c1}/>
+        </Link>
+        <Link to="/Details/truck2">
+          <Card url={c2}/>
+        </Link>
+        <Link to="/Details/truck3">
+          <Card url={c3}/>
+        </Link>
+        <Link to="/Details/truck4">
+          <Card url={c4}/>
+        </Link>
+        <Link to="/Details/truck5">
+          <Card url={c5}/>
+        </Link>
+        <Link to="/Details/truck6">
+          <Card url={c6}/>
+        </Link>
+        <Link to="/Details/truck7">
+          <Card url={c7}/>
+        </Link>
+      
         
 
         

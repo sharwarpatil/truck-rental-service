@@ -6,8 +6,8 @@ export default function Card(props) {
   
   return (
     <>
-    <Link to="/Details">
-    <div className="card mb-3  "  >
+    
+    <div className="card mb-3"  >
 
             
             <div className="row g-0 ">
@@ -18,7 +18,7 @@ export default function Card(props) {
                 <div className="card-body">
                   <div id="cardtext"></div>
                   <p className="card-text"> 
-                    {props.text}
+                    {props.text} 
               
 
                   </p>
@@ -27,7 +27,7 @@ export default function Card(props) {
               </div>
             </div>
     <div/> 
-    </Link>       
+        
     </>
   )
 }
