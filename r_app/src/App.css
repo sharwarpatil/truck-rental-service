@@ -1,29 +1,27 @@
 /* for navigation bar
 */
-.nav:hover{  
-  color: orange
+
+.nav:hover {
+  color: orange;
 }
-#icon:hover{
-  color:orange;
+#icon:hover {
+  color: orange;
 }
 
-.nav{
-  
+.nav {
   font-size: 2vh;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(255, 255, 255) ;
-  background-color: rgb(0, 0, 0); 
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   text-decoration: none;
   display: inline-block;
   margin-top: 1.2vh;
-  
-
 }
-#nav{
+#nav {
   background-color: rgb(0, 0, 0);
   height: 5vh;
   width: 100vw;
-  display:flex;
+  display: flex;
   justify-content: space-around;
   position: fixed;
   z-index: 1;
@@ -31,13 +29,11 @@
   border-width: 0.2vh;
   border-color: rgb(102, 59, 255);
 }
-body{
+body {
   text-align: center;
   text-decoration-line: none;
-  background-color: aliceblue;
-
+  background-color: rgb(0, 0, 0);
 }
-
 
 .menu-button {
   margin-top: 2.5vh;
@@ -51,11 +47,9 @@ body{
   height: 0.4vh;
   background-color: rgb(255, 145, 0);
   margin: 12%;
-  
 }
 
-#under_image_text{
-  
+#under_image_text {
   position: relative;
   background-color: rgb(0, 0, 0);
   text-align: center;
@@ -69,162 +63,155 @@ body{
 }
 
 /* for icon */
-#icon{
+#icon {
   margin-left: 3vh;
   height: 5vh;
   width: 5vh;
-  color: white;  
-}
-#text{
   color: white;
 }
-#content{
-  width:81vw;
-  left: 16.5vw;
-  position: relative;  
-  bottom: 79vh; 
-  background-color: rgb(255, 255, 255);
+#text {
+  color: white;
+}
+#content {
+  width: 60vw;
+  left: 30vw;
+  position: relative;
+  bottom: 79vh;
+  background-color: rgb(24, 197, 84);
   display: inline-block;
 }
 
-
 .card {
-
   cursor: pointer;
   font-size: 1.5rem;
   border-width: 0.01vh;
   border-color: rgb(0, 0, 0);
   border-collapse: collapses;
   position: relative;
- overflow: hidden;
- color: rgb(0, 0, 0);
+  overflow: hidden;
+  color: rgb(0, 0, 0);
   border-radius: 0px;
 }
 
-.col-md-4{
+.col-md-4 {
   background-size: cover;
-  height:20rem;
+  height: 20rem;
   display: inline-block;
- 
 }
-#content{
-  display:flex;
+#content {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   margin-right: 0.5vw;
-  background-color: aliceblue;
-
+  background-color: black;
 }
-.card-text{
+.card-text {
   margin-top: 2rem;
   font-size: 1.2rem;
   font-weight: 600;
 }
-#cardimage1{
-
-  background-size:cover ; 
+#cardimage1 {
+  background-size: cover;
   border-style: solid;
   border-width: 0.1vh;
   border-color: rgb(0, 0, 0);
   border-collapse: collapse;
-  margin: -0.1vh; 
+  margin: -0.1vh;
 }
 
-#beside_card{
-  margin: -0.1vh; 
+#beside_card {
+  margin: -0.1vh;
   position: relative;
-  right:2vw;
-  top:1vh;
+  left: 2vw;
+  top: 1vh;
   height: 80vh;
-  width :15.95vw;
+
   color: rgb(0, 0, 0);
-  display:inline-block;
+  /* display: inline-block; */
   border-style: solid;
   border-width: 0.1vh;
-  border-color: black;
-  background-image: url(component/images/background.jpeg);
-  background-size: cover;
-  margin-right: 80vw; 
+  border-color: rgb(169, 63, 63);
+  background-color: rgb(151, 154, 163);
+  /* background-size: cover; */
+  margin-right: 80vw;
   display: flex;
+  width: 24vw;
   padding-top: 2vh;
   text-align: center;
   flex-direction: column;
-  justify-content: space-around; 
+  justify-content: space-around;
   display: inline-block;
 }
 
-#filler{
+#filler {
   font-size: 2rem;
   font-weight: bold;
   color: blue;
 }
 
-.ft{
+.ft {
   color: blue;
   font-weight: bold;
   font-size: 1.2rem;
 }
-.btn{
- width:14.8vw;
+.btn {
+  width: 14.8vw;
   position: relative;
   left: 0.05vw;
   margin-top: 4vh;
   bottom: 3vh;
   font-size: 0.8rem;
-  
 }
 
-#fortext{
+#fortext {
   margin-top: 4vh;
   font-size: 1rem;
   font-weight: 500;
 }
-.carousel{
+.carousel {
   position: relative;
   width: 75vw;
   left: 12.5vw;
   height: 49vh;
 }
-.d-block{
+.d-block {
   height: 54vh;
-  
 }
-img{
+img {
   background-size: cover;
- 
 }
 
-#c_block{
+#c_block {
   background-image: url(component/images/background2.jpeg);
   background-size: contain;
   height: 54vh;
 }
-.active{
-  color: orange
+.active {
+  color: orange;
 }
-#cbox{
-  height:32vw;
-  width:50vw;
+#cbox {
+  height: 32vw;
+  width: 50vw;
   background-color: white;
   border-width: 0.1vh;
   border-style: solid;
   border-color: black;
   position: relative;
-  top:7vh;
+  top: 7vh;
   left: 2vh;
-  background-size:cover;
+  background-size: cover;
 }
-#detailicon{
+#detailicon {
   position: relative;
-  left :47vw;
+  left: 47vw;
   bottom: 60vh;
-  height:4vh;
+  height: 4vh;
   width: 3.8vw;
   border-style: solid;
   border-width: 0.4vh;
   border-radius: 10vh;
   color: black;
 }
-#detailicon:hover{
-  color:blue;
+#detailicon:hover {
+  color: blue;
 }
